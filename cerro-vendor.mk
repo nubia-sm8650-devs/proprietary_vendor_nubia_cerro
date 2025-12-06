@@ -23,6 +23,12 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/debug/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/debug/camxoverridesettings.txt \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/dualcam_cali.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dualcam_cali.bin \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/eisoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eisoverridesettings.txt \
+    vendor/nubia/cerro/proprietary/vendor/etc/camera/icon/colorfilter_building.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_building.png \
+    vendor/nubia/cerro/proprietary/vendor/etc/camera/icon/colorfilter_cloud.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_cloud.png \
+    vendor/nubia/cerro/proprietary/vendor/etc/camera/icon/colorfilter_food.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_food.png \
+    vendor/nubia/cerro/proprietary/vendor/etc/camera/icon/colorfilter_mountain.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_mountain.png \
+    vendor/nubia/cerro/proprietary/vendor/etc/camera/icon/colorfilter_sun.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_sun.png \
+    vendor/nubia/cerro/proprietary/vendor/etc/camera/icon/colorfilter_water.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_water.png \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/icon/water_mark_drawable_black.argb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/water_mark_drawable_black.argb \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/icon/water_mark_drawable_black_eng.argb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/water_mark_drawable_black_eng.argb \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/icon/water_mark_drawable_white.argb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/water_mark_drawable_white.argb \
@@ -145,6 +151,7 @@ PRODUCT_PACKAGES += \
     sensors.hal.tof \
     libQnnHtpV75CalculatorStub \
     libQnnJsonProfilingReader \
+    libVNSDenoise \
     libVNSInterface \
     libarcsoft_hp_detection \
     libarcsoft_picselfie \
