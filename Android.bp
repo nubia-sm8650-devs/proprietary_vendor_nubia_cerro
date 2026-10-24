@@ -3695,36 +3695,3 @@ prebuilt_etc_xml {
     sub_dir: "vintf/manifest",
     soc_specific: true,
 }
-
-cc_prebuilt_binary {
-    name: "android.hardware.secure_element-service-aidl",
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.secure_element-service-aidl",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.secure_element-V1-ndk",
-                "android.hardware.secure_element.thales.libse",
-                "libbase",
-                "libcutils",
-                "libhardware",
-                "liblog",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
