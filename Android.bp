@@ -3697,3 +3697,11 @@ prebuilt_etc_xml {
     sub_dir: "vintf/manifest",
     soc_specific: true,
 }
+
+filegroup {
+    name: "cerro-acdb",
+    srcs: [
+        "proprietary/vendor/etc/acdbdata/pineapple_mtp/MTP_acdb_cal.acdb",
+        "proprietary/vendor/etc/acdbdata/pineapple_mtp/MTP_workspaceFileXml.qwsp",
+    ],
+}
